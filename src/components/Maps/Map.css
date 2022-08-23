@@ -1,0 +1,78 @@
+
+
+.map-container{ 
+display: flex;
+flex-grow: 1;
+min-height: 100vh;
+margin:100px 50px 100px 50px;
+}
+.map{ 
+margin-top: 2rem;
+    height: 70vh;
+    width:55vw; 
+    margin-left: 50px;
+   
+} 
+
+.map-description{ 
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+
+.map-box{ 
+    inline-size: 450px;
+    overflow-wrap: break-word;
+}
+
+p{ 
+    font-size: 16px;
+    word-spacing: 6px;
+    opacity: 1;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+
+@media screen and (max-width:1200px) {
+
+.map-container{ 
+    margin:100px 50px 100px 50px;
+}
+    .map{ 
+        
+        height: 600px;
+        width:100vw;
+        margin-left: 0px;
+       
+    } 
+    .map-description{ 
+        margin-top: 30px;
+        margin-left: 60px;
+    
+    }
+}
+@media screen and (max-width: 1100px){ 
+    .map-container{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ width: auto;
+        }
+        .map{ 
+            height: 60vh;
+            width:85vw;   
+           
+        } 
+        .map-description{ 
+      
+            margin-top: 30px;
+            margin-left: 0px;
+        
+        }
+        .map-box{ 
+            inline-size: 50 0px;
+            overflow-wrap: break-word;
+        }
+}

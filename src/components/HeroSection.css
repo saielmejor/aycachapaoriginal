@@ -1,0 +1,227 @@
+.hero-container {
+  background: url("https://imag.bonviveur.com/presentacion-principal-de-las-cachapas-venezolanas.jpg")
+    center center/cover no-repeat;
+  opacity: 1;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container h1 {
+  align-items: center;
+  padding-top: 18rem;
+  color: white;
+  font-size:60px;
+  margin-top: -80px;
+  opacity: 1;
+  font-weight: bold;
+}
+.hero-container p {
+  padding-top: 1rem;
+  color: white;
+  font-size: 30px;
+  margin-top: 8px;
+  opacity: 1;
+  font-weight: bold;
+}
+.hero-btns {
+  
+  margin-top: 32px;
+}
+.hero-btns .btn {
+  color: black;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero-btns .btn:hover {
+  color: white;
+}
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+/* hero container for the brand story */
+.hero-container-story {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5)),
+    url("https://cdn.mos.cms.futurecdn.net/uMVmMrt4gYY28bmepYvmJ5.jpg") center
+      center/cover no-repeat;
+  height: 100vh;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+.hero-container-story h1 {
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+.hero-container-story p {
+  color: black;
+  font-size: 16px;
+  word-spacing: 10px;
+  opacity: 1;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8;
+  inline-size: 500px;
+  width: 550px;
+  overflow: hidden;
+  margin-left: 100px;
+}
+
+.hero-container-story-description {
+  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: auto;
+  margin-left: 10px;
+}
+
+.hero-story-image {
+  height: 400px;
+  width: 500px;
+}
+
+
+@media screen and (max-width: 1250px) {
+  
+  .hero-container-story {
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5)),
+      url("https://cdn.mos.cms.futurecdn.net/uMVmMrt4gYY28bmepYvmJ5.jpg") center
+        center/cover no-repeat;
+    height: 150vh;
+    width: 100%;
+    justify-content: center;
+  }
+  .hero-container-story-description{ 
+    display: flex;
+    flex-direction:column;
+    height: auto;
+    width: auto;
+    margin: 0 auto 0 auto; 
+    justify-content: center;
+  }
+  
+  .hero-story-image {
+   display: block;
+   margin: auto;
+    height: 400px;
+    width: 500px;
+  }
+
+  .hero-brand-story{ 
+    position: relative;
+    left: 0px;
+    top: 65px;
+    width: auto;
+    margin:auto;
+    text-align: start;
+  }
+  .hero-container-story p {
+    color: black;
+    font-size: 16px;
+    word-spacing: 6px;
+    opacity: 1;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    inline-size: 400px;
+    width: 650px;
+   
+  }
+  
+}
+
+@media screen and (max-width: 800px) {
+  
+  .hero-container h1 {
+    align-items: center;
+    padding-top: 20rem;
+    color: white;
+    font-size: 40px;
+    margin-top: -80px;
+    opacity: 1;
+    font-weight: bold;
+  }
+  .hero-container p {
+    padding-top: 1rem;
+    color: white;
+    font-size: 24px;
+    margin-top: 8px;
+    opacity: 1;
+    font-weight: bold;
+  }
+
+  .hero-btns .btn {
+    color: black;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  .hero-story-image {
+   
+    height: 300px;
+    width: 400px;
+  }
+
+
+
+
+
+  .hero-container-story h1 {
+    margin-top: 0px;
+
+    font-size: 30px;
+  }
+  .hero-container-story p {
+    color: black;
+    font-size: 15px;
+    word-spacing: 8px;
+   margin-left: 40px;
+   margin-right: 40px;
+   
+    opacity: 1;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    width: auto;
+    
+    overflow: hidden;
+  }
+
+  
+  
+ 
+}
+
+@media screen and (max-width: 600px) {
+  .hero-btns{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .hero-container h1 {
+    align-items: center;
+    padding-top: 20rem;
+    color: white;
+    font-size: 30px;
+
+    opacity: 1;
+    font-weight: bold;
+  }
+}
