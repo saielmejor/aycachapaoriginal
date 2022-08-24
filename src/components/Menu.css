@@ -12,7 +12,8 @@
 }
 
 .menu-image-container{
-    display: flex;
+    display:  flex;
+    flex-direction: column;
     justify-content: center;
     position: relative;  
     height: 80%;
@@ -37,4 +38,23 @@ h1{
         
       
     }
+
+}
+
+@media screen and (max-width:460px) {
+
+    .menu-container{ 
+        height: 100vh;
+    }
+    .menu-image-container{ 
+        
+        width: 400px;
+        margin:0;
+    }
+    .menu-h1{ 
+        position: relative;
+        margin-bottom: 0px;
+       
+    }
+    
 }

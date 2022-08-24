@@ -58,7 +58,7 @@ p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
- width: auto;
+         width: auto;
         }
         .map{ 
             height: 60vh;
@@ -72,7 +72,20 @@ p{
         
         }
         .map-box{ 
-            inline-size: 50 0px;
+            inline-size: auto;
             overflow-wrap: break-word;
         }
+}
+@media screen and (max-width: 460px) {
+
+    .map-description{ 
+      
+        margin-top: 30px;
+        margin-left: 0px;
+    
+    }
+    .map-box{ 
+        inline-size: auto;
+        overflow-wrap: break-word;
+    }
 }

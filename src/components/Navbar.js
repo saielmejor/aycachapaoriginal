@@ -21,11 +21,17 @@ const closeMobileMenu=()=>setClick(false)
             <i className={click ? "fas fa-times" :"fas fa-bars"}></i>
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu' }>
-            <li className='nav-item'>
+          <li className='nav-item'>
+            <a className="nav-links"
+                href="https://aycachapas.ola.click/products"
+                target="_blank"
+                aria-label="Aycachapas">Order Now</a>
+            </li>
+            {/* <li className='nav-item'>
               <Link to="/" className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
-            </li>
+            </li> */}
             <li className='nav-item'>
               <Link to="/menu" className='nav-links' onClick={closeMobileMenu}>
               Menu
